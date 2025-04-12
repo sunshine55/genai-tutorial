@@ -1,0 +1,21 @@
+{
+  "name": "story-gen",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bedtime story teller assisted by generative AI",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "NODE_ENV=local node --env-file=.env.local index.js"
+  },
+  "author": "sunshine55",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.8.0",
+    "elevenlabs": "^1.56.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}

@@ -1,0 +1,7 @@
+services:
+  story-gen:
+    image: node:23-bookworm-slim
+    container_name: story-gen
+    volumes:
+      - ./:/codebase:delegated
+    command: tail -f /dev/null

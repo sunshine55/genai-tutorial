@@ -1,0 +1,12 @@
+{
+  "name": "story-gen",
+  "dockerComposeFile": ["./compose.yml"],
+  "service": "story-gen",
+  "shutdownAction": "none",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "VisualStudioExptTeam.vscodeintellicode", "xabikos.JavaScriptSnippets", "leizongmin.node-module-intellisense"]
+    }
+  },
+  "workspaceFolder": "/codebase"
+}
