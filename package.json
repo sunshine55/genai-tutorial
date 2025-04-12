@@ -6,8 +6,8 @@
   "description": "Bedtime story teller assisted by generative AI",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write .",
-    "test": "NODE_ENV=local node --env-file=.env.local index.js"
+    "format": "prettier --write ./src",
+    "exec": "NODE_ENV=local node --env-file=.env.local ./src/index.js"
   },
   "author": "sunshine55",
   "license": "ISC",
