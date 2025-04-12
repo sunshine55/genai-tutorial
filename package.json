@@ -16,6 +16,7 @@
     "elevenlabs": "^1.56.1"
   },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "uuid": "^11.1.0"
   }
 }

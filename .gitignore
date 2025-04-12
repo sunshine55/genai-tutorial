@@ -9,6 +9,7 @@ node_modules/
 
 # Ignore local environment files:
 *.local
+*.mp3
 
 # Ignore system files:
 .DS_Store

@@ -4,16 +4,10 @@ const client = new ElevenLabsClient({
   apiKey: process.env.ELEVENLABS_API_KEY
 });
 
-client
-  .textToSpeech({
-    text: 'Hello, world!',
-    voice: '21m00Tcm4TlvDq8ikWAM',
-    stability: 0.75,
-    similarityBoost: 0.75
-  })
-  .then((audio) => {
-    // do something with the audio
-  })
-  .catch((error) => {
-    console.error('Error:', error);
+export function askElevenLabs(contents) {
+  return client.textToSpeech.convert('21m00Tcm4TlvDq8ikWAM',{
+    text: contents,
+    output_format: 'mp3_44100_128',
+    model_id: 'eleven_multilingual_v2'
   });
+}
