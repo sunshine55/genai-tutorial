@@ -22,3 +22,9 @@ At root folder of the project:
 3. Run the scripts: `npm run exec`
 
 Using VSCode to develop within container: https://code.visualstudio.com/docs/devcontainers/containers
+
+## Reference
+
+https://github.com/Shubhamsaboo/awesome-llm-apps
+
+https://weaviate.io/blog/vector-embeddings-explained

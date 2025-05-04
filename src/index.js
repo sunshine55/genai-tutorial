@@ -1,8 +1,8 @@
 import { askGemini } from './genai/GeminiAgent.js';
 import { askElevenLabs } from './voice/ElevenLabs.js';
 import { v4 as uuid } from 'uuid';
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 
 const geminiResponse = await askGemini(process.env.SAMPLE_PROMPT);
 const audio = await askElevenLabs(geminiResponse.text);
