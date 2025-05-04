@@ -1,4 +1,4 @@
-# AI Short Bedtime Story Generator
+# Short Bedtime Story AI
 
 Composed small scripts demonstrate generative AIs to convert text to speech
 
